@@ -24,5 +24,11 @@ public class HistoireTP4 {
 		yakuLeNoir.direBonjour();
 		yakuLeNoir.extorquer(marco);
 		
+		System.out.println("\n\n");
+		
+		Ronin roro = new Ronin("Roro", "shochu", 60);
+		roro.direBonjour();
+		roro.donner(marco);
+		
 	}
 }
