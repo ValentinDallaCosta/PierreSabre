@@ -30,5 +30,10 @@ public class HistoireTP4 {
 		roro.direBonjour();
 		roro.donner(marco);
 		
+		System.out.println("\n\n");
+		
+		roro.provoquer(yakuLeNoir);
+		
+		
 	}
 }
