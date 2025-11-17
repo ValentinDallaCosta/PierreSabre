@@ -9,5 +9,13 @@ public class HistoireTP4 {
 		prof.boire();
 		prof.acheter("jeu", 2);
 		prof.acheter("kimono", 50);
+		
+		System.out.println("\n\n");
+		
+		Commercant marco = new Commercant("Marco");
+		marco.direBonjour();
+		marco.seFaireExtorquer();
+		marco.recevoir(15);
+		marco.boire();
 	}
 }
